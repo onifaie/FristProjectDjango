@@ -6,5 +6,6 @@ class blogadmin(admin.ModelAdmin):
     mydate=date.day
     list_display = ['title', 'dateAdd', 'user','discrption']
     list_filter=['title','dateAdd']
-    search_fields=['title','discrption']
+    search_fields=['title','discrption','dateAdd']
+    
 
