@@ -1,0 +1,16 @@
+
+
+# this steps to Start with vbcode and Github To Start Projects
+
+
+1- create Reposstory online Git hub 
+2- open VB Code and connect with your Repostory 
+3- make virtualenv and activation 
+4- pip install django 
+---------------------------------
+5- Create new Project > django-admin startproject 
+6- setting template and StaticFile (copy template to static file ) and media 
+
+7- python maange.py runserver 
+9- add superuser > django-admin 
+10- add App > django-admin startapp  nameofapp
