@@ -14,5 +14,7 @@ class blog(models.Model):
     image=models.ImageField(upload_to='img/')
     user=models.ForeignKey(User,on_delete=models.CASCADE)
 
+    
+
     def __str__(self) -> str:
-        return self.title,self.user
+        return self.title
